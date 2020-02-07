@@ -23,10 +23,10 @@ void loop() {
     Encendido = 1;
     Tiempo = Tiempo - IniciodeCuenta;
     Serial.println("Espere 20 segundos");
-   //Serial.print("ESTAAAAAAAADOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO ");
+
    // Serial.println(Encendido);
     while (Encendido == 1) {
-    //  Serial.println("Milllliiiiiiiiiiiiiiiiiiiiiiissssssssssssssssssssssssssssss");
+ 
      // Serial.println(millis());
        Tiempo = millis() - IniciodeCuenta;
        
